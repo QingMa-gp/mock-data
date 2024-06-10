@@ -7,7 +7,7 @@ import (
 
 var (
 	programName    = "mock"
-	programVersion = "v3.0"
+	programVersion = "v3.1"
 	// ExecutionTimestamp provides the current time to generate log files
 	ExecutionTimestamp = TimeNow()
 	// Path set the path or the location where the files will be generated
