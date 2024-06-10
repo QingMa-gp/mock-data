@@ -161,7 +161,6 @@ AND       n.nspname <> 'information_schema'
 AND       n.nspname !~ '^pg_toast' 
 AND       n.nspname <> 'gp_toolkit' 
 AND       c.relkind = 'r' 
-AND       c.relstorage IN ('a','h','c') 
 %s 
 ORDER BY  1
 `
